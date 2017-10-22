@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+KNearestNeighbor	../classifiers/k_nearest_neighbor.py	/^class KNearestNeighbor(object):$/;"	kind:class	line:4
+LinearClassifier	../classifiers/linear_classifier.py	/^class LinearClassifier(object):$/;"	kind:class	line:8
+LinearSVM	../classifiers/linear_classifier.py	/^class LinearSVM(LinearClassifier):$/;"	kind:class	line:127
+Softmax	../classifiers/linear_classifier.py	/^class Softmax(LinearClassifier):$/;"	kind:class	line:139
+TwoLayerNet	../classifiers/neural_net.py	/^class TwoLayerNet(object):$/;"	kind:class	line:6
+__init__	../classifiers/k_nearest_neighbor.py	/^  def __init__(self):$/;"	kind:member	line:7
+__init__	../classifiers/linear_classifier.py	/^  def __init__(self):$/;"	kind:member	line:10
+__init__	../classifiers/neural_net.py	/^  def __init__(self, input_size, hidden_size, output_size, std=1e-4):$/;"	kind:member	line:21
+__init__.py	../__init__.py	1;"	kind:file	line:1
+__init__.py	../classifiers/__init__.py	1;"	kind:file	line:1
+color_histogram_hsv	../features.py	/^def color_histogram_hsv(im, nbin=10, xmin=0, xmax=255, normalized=True):$/;"	kind:function	line:125
+compute_distances_no_loops	../classifiers/k_nearest_neighbor.py	/^  def compute_distances_no_loops(self, X):$/;"	kind:member	line:103
+compute_distances_one_loop	../classifiers/k_nearest_neighbor.py	/^  def compute_distances_one_loop(self, X):$/;"	kind:member	line:81
+compute_distances_two_loops	../classifiers/k_nearest_neighbor.py	/^  def compute_distances_two_loops(self, X):$/;"	kind:member	line:50
+data_utils.py	../data_utils.py	1;"	kind:file	line:1
+eval_numerical_gradient	../gradient_check.py	/^def eval_numerical_gradient(f, x, verbose=True, h=0.00001):$/;"	kind:function	line:6
+eval_numerical_gradient_array	../gradient_check.py	/^def eval_numerical_gradient_array(f, x, df, h=1e-5):$/;"	kind:function	line:37
+eval_numerical_gradient_blobs	../gradient_check.py	/^def eval_numerical_gradient_blobs(f, inputs, output, h=1e-5):$/;"	kind:function	line:59
+eval_numerical_gradient_net	../gradient_check.py	/^def eval_numerical_gradient_net(net, inputs, output, h=1e-5):$/;"	kind:function	line:101
+extract_features	../features.py	/^def extract_features(imgs, feature_fns, verbose=False):$/;"	kind:function	line:8
+features.py	../features.py	1;"	kind:file	line:1
+get_CIFAR10_data	../data_utils.py	/^def get_CIFAR10_data(num_training=49000, num_validation=1000, num_test=1000,$/;"	kind:function	line:43
+grad_check_sparse	../gradient_check.py	/^def grad_check_sparse(f, x, analytic_grad, num_checks=10, h=1e-5):$/;"	kind:function	line:106
+gradient_check.py	../gradient_check.py	1;"	kind:file	line:1
+hog_feature	../features.py	/^def hog_feature(im):$/;"	kind:function	line:71
+k_nearest_neighbor.py	../classifiers/k_nearest_neighbor.py	1;"	kind:file	line:1
+linear_classifier.py	../classifiers/linear_classifier.py	1;"	kind:file	line:1
+linear_svm.py	../classifiers/linear_svm.py	1;"	kind:file	line:1
+load_CIFAR10	../data_utils.py	/^def load_CIFAR10(ROOT):$/;"	kind:function	line:27
+load_CIFAR_batch	../data_utils.py	/^def load_CIFAR_batch(filename):$/;"	kind:function	line:17
+load_models	../data_utils.py	/^def load_models(models_dir):$/;"	kind:function	line:210
+load_pickle	../data_utils.py	/^def load_pickle(f):$/;"	kind:function	line:9
+load_tiny_imagenet	../data_utils.py	/^def load_tiny_imagenet(path, dtype=np.float32, subtract_mean=True):$/;"	kind:function	line:85
+loss	../classifiers/linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	kind:member	line:106
+loss	../classifiers/linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	kind:member	line:130
+loss	../classifiers/linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	kind:member	line:142
+loss	../classifiers/neural_net.py	/^  def loss(self, X, y=None, reg=0.0):$/;"	kind:member	line:43
+neural_net.py	../classifiers/neural_net.py	1;"	kind:file	line:1
+predict	../classifiers/k_nearest_neighbor.py	/^  def predict(self, X, k=1, num_loops=0):$/;"	kind:member	line:24
+predict	../classifiers/linear_classifier.py	/^  def predict(self, X):$/;"	kind:member	line:134
+predict	../classifiers/linear_classifier.py	/^  def predict(self, X):$/;"	kind:member	line:81
+predict	../classifiers/linear_classifier.py	/^  def predict(self,X):$/;"	kind:member	line:145
+predict	../classifiers/neural_net.py	/^  def predict(self, X):$/;"	kind:member	line:236
+predict_labels	../classifiers/k_nearest_neighbor.py	/^  def predict_labels(self, dists, k=1):$/;"	kind:member	line:137
+rgb2gray	../features.py	/^def rgb2gray(rgb):$/;"	kind:function	line:58
+softmax.py	../classifiers/softmax.py	1;"	kind:file	line:1
+softmax_loss_naive	../classifiers/softmax.py	/^def softmax_loss_naive(W, X, y, reg):$/;"	kind:function	line:4
+softmax_loss_vectorized	../classifiers/softmax.py	/^def softmax_loss_vectorized(W, X, y, reg):$/;"	kind:function	line:66
+svm_loss_naive	../classifiers/linear_svm.py	/^def svm_loss_naive(W, X, y, reg):$/;"	kind:function	line:4
+svm_loss_vectorized	../classifiers/linear_svm.py	/^def svm_loss_vectorized(W, X, y, reg):$/;"	kind:function	line:62
+train	../classifiers/k_nearest_neighbor.py	/^  def train(self, X, y):$/;"	kind:member	line:10
+train	../classifiers/linear_classifier.py	/^  def train(self, X, y, learning_rate=1e-3, reg=1e-5, num_iters=100,$/;"	kind:member	line:13
+train	../classifiers/neural_net.py	/^  def train(self, X, y, X_val, y_val,$/;"	kind:member	line:141
+vis_grid	../vis_utils.py	/^def vis_grid(Xs):$/;"	kind:function	line:39
+vis_nn	../vis_utils.py	/^def vis_nn(rows):$/;"	kind:function	line:57
+vis_utils.py	../vis_utils.py	1;"	kind:file	line:1
+visualize_grid	../vis_utils.py	/^def visualize_grid(Xs, ubound=255.0, padding=1):$/;"	kind:function	line:5
